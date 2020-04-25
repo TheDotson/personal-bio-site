@@ -2,3 +2,10 @@ body {
   background-color: cornflowerblue;
   color: black;
 }
+
+img {
+  max-width: 300px;
+  max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
