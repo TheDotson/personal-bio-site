@@ -38,7 +38,7 @@ const createProjectCards = (array) => {
   let domString ='';
   for (let i = 0; i < array.length; i++) {
     if (array[i].available === true) {
-    domString += `<div>`
+    domString += `<div class="project">`
     domString += `<header><h3>${array[i].title}</h3></header>`
     domString += `<img src="${array[i].screenshot}" alt="">`
     domString += `<p><strong>Description</strong>: ${array[i].description}</p>`
