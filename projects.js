@@ -40,10 +40,10 @@ const createProjectCards = (array) => {
     if (array[i].available === true) {
     domString += `<div class="project">`
     domString += `<header><h3>${array[i].title}</h3></header>`
-    domString += `<img src="${array[i].screenshot}" alt="">`
+    domString += `<a href="${array[i].url}" target="_blank"><img src="${array[i].screenshot}"></a>`
     domString += `<p><strong>Description</strong>: ${array[i].description}</p>`
     domString += `<div><strong>Technologies Used</strong>: ${array[i].technologiesUsed}</div>`
-    domString += `<a href="${array[i].url}">URL</a>`
+    domString += `<a href="${array[i].githubUrl}" target="_blank">Repository</a>`
     domString += `</div>`;
     } 
   } 
