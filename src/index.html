@@ -1,49 +1,43 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Michael Dotson: A Personal Bio</title>
-  <link rel="stylesheet" href="main.css">
+  <title>Michael Dotson - Full Stack Developer</title>
 </head>
 
 <body>
+
   <!-- Navigation -->
   <nav>
+    <!-- <img src="./assets/me.jpeg" alt=""> -->
     <h1>Michael Dotson</h1>
+    <h4>Full Stack Developer</h4>
     <ul id="navLinks">
-      <li><a id="navToBio">Bio</a></li>
-      <li><a id="navToTechnologies">Technologies</a></li>
-      <li><a id="navToProjects">Projects</a></li>
+      <li id="navToBio" class="navlink" data-page-id="bioPage">Bio</li>
+      <li id="navToTechnologies" class="navlink" data-page-id="technologiesPage">Technologies</li>
+      <li id="navToProjects" class="navlink" data-page-id="projectsPage">Projects</li>
     </ul>
   </nav>
   <!-- End Navigation -->
 
   <!-- Primary View -->
-  <div class="fullPage" id="bioPage">
-    My background consists of a mix of Sales and IT positions.  I want to get into development for the betterment of my future.  I don't enjoy what I'm currently doing.  It's not fulfilling.  On top of that, Nashvile isn't a cheap city to live.  I want to lead a comfortable life for myself and the people I care about.  I want to get up in the morning and enjoy what I'm doing with +8 hours of my weekday.  I want to work within a career that allows me to problem solve and feel like i've accomplished something.
+  <div id="mainContent">
+    <div class="fullPage" id="bioPage">
+      <h3>Biography</h3>
+      <p>My background consists of a mix of Sales and IT experience.  I want to get into development for the betterment of my future.  I don't enjoy what I'm currently doing.  It's not fulfilling.  On top of that, Nashvile isn't a cheap city to live.  I want to lead a comfortable life for myself and the people I care about.  I want to get up in the morning and enjoy what I'm doing with +8 hours of my weekday.  I want to work within a career that allows me to problem solve and feel like i've accomplished something.</p>
+    </div>
+    <div class="fullPage" id="technologiesPage"></div>
+    <div class="fullPage" id="projectsPage"></div>
   </div>
-  <div class="fullPage" id="technologiesPage">
-    <h2>Experience with:</h2>
-    <ul id='techExperience'>
-      <li>JavaScript</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Python</li>
-    </ul>
-  </div>
-  <h2>My Projects</h2>
-  <div class="fullPage" id="projectsPage"></div>
   <!-- End Primary View -->
 
   <!-- Footer -->
   <footer class="page-footer">
     <p>Email: <a href="mailto:thedotson@icloud.com">thedotson@icloud.com</a> | <a href="https://github.com/TheDotson" target="_blank">GitHub</a></p>
-    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
   </footer>
   <!-- End Footer -->
 
-  <script src="main.js"></script>
-  <script src="projects.js"></script>
 </body>
 </html>
