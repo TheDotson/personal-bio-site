@@ -46,4 +46,6 @@ const projects = [
   },
 ];
 
-export default { projects };
+const getProjects = () => projects;
+
+export default { getProjects };
