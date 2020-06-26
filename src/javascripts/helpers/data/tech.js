@@ -1,15 +1,15 @@
 const tech = [
   {
     name: 'HTML 5',
-    img: './assets/html5.png',
+    image: './src/assets/html5.png',
   },
   {
     name: 'CSS 3',
-    img: './assets/css.png',
+    image: './src/assets/css.png',
   },
   {
     name: 'Javascript',
-    img: './assets/js.jpg',
+    image: './src/assets/js.jpg',
   },
 ];
 

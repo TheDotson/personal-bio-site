@@ -7,7 +7,7 @@ const buildTech = () => {
   domString += '<ul>';
   allTech.forEach((techItem) => {
     domString += `
-    <li><img src="${techItem.img}" alt=""> ${techItem.name}</li>
+    <li><img src="${techItem.image}"> ${techItem.name}</li>
     `;
     domString += '</ul>';
     utils.printToDom('#technologiesPage', domString);
