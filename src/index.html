@@ -1,43 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Michael Dotson - Full Stack Developer</title>
-</head>
-
-<body>
-
-  <!-- Navigation -->
-  <nav>
-    <!-- <img src="./assets/profile.jpeg" alt=""> -->
-    <h1>Michael Dotson</h1>
-    <h4>Full Stack Developer</h4>
-    <ul id="navLinks">
-      <li id="navToBio" class="navlink" data-page-id="bioPage">Bio</li>
-      <li id="navToTechnologies" class="navlink" data-page-id="technologiesPage">Technologies</li>
-      <li id="navToProjects" class="navlink" data-page-id="projectsPage">Projects</li>
-    </ul>
-  </nav>
-  <!-- End Navigation -->
-
-  <!-- Primary View -->
-  <div id="mainContent">
-    <div class="fullPage" id="bioPage">
-      <h3>Biography</h3>
-      <p>My background consists of a mix of Sales and IT experience.  I want to get into development for the betterment of my future.  I don't enjoy what I'm currently doing.  It's not fulfilling.  On top of that, Nashvile isn't a cheap city to live.  I want to lead a comfortable life for myself and the people I care about.  I want to get up in the morning and enjoy what I'm doing with +8 hours of my weekday.  I want to work within a career that allows me to problem solve and feel like I've accomplished something.</p>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Dotson - Full Stack Developer</title>
+  </head>
+  
+  <body id="app">
+    <div id="navbar" class="component"></div>
+    <div class="container-fluid" id="portfolio">
+      <div id="bioPage" class="component container"></div>
+      <div id="technologiesPage" class="component container"></div>
     </div>
-    <div class="fullPage" id="technologiesPage"></div>
-    <div class="fullPage" id="projectsPage"></div>
-  </div>
-  <!-- End Primary View -->
-
-  <!-- Footer -->
-  <footer class="page-footer">
-    <p>Email: <a href="mailto:thedotson@icloud.com">thedotson@icloud.com</a> | <a href="https://github.com/TheDotson" target="_blank">GitHub</a></p>
-  </footer>
-  <!-- End Footer -->
-
-</body>
+      <div id="projectsPage" class="container-fluid component"></div>
+      <footer class="page-footer">
+        Email: <a href="mailto:thedotson@icloud.com">thedotson@icloud.com</a> | <a href="https://github.com/TheDotson" target="_blank">GitHub</a>
+      </footer>
+    </div>
+  </body>
 </html>
