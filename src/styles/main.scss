@@ -1,35 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "../javascripts//components/navbar/navbar.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 body {
   background-color: cornflowerblue;
-  color: black;
+  font-family: 'Roboto Slab';
 }
 
-img {
-  max-width: 300px;
-  max-height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#projectsPage {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.project {
-  background-color: whitesmoke;
-  justify-content: space-between;
-  border: 1px solid black;
+.page-footer {
+  font-size: 12pt;
+  margin-top: 25px;
+  padding: 20px;
   text-align: center;
-  padding: 0;
-  width: 30%;
-}
-
-.project h3 {
-  background: slategray;
-  margin-top: 0;
-  margin-bottom: 10px;
 }
