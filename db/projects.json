@@ -1,0 +1,47 @@
+{
+  "project01": {
+    "title": "Test Project 01",
+    "screenshot": "https://bit.ly/2zq6a7T",
+    "description": "This is the best project",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  },
+  "project02": {
+    "title": "Test Project 02",
+    "screenshot": "https://bit.ly/2zq6a7T",
+    "description": "This is the best project",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  },
+  "project03": {
+    "title": "Test Project 03",
+    "screenshot": "https://bit.ly/2zq6a7T",
+    "description": "This is the best project",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  },
+  "project04": {
+    "title": "Test Project 04",
+    "screenshot": "https://bit.ly/2zq6a7T",
+    "description": "This is the best project",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  },
+  "project05": {
+    "title": "Test Project 05",
+    "screenshot": "https://bit.ly/2zq6a7T",
+    "description": "This is the best project",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  }
+}
