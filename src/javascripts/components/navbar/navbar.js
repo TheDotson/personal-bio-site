@@ -1,4 +1,5 @@
 import utils from '../../helpers/utils';
+import divManip from '../divManip/divManip';
 
 const buildNavBar = () => {
   const domString = `
@@ -10,19 +11,23 @@ const buildNavBar = () => {
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link text" href="#bioPage">Bio <span class="sr-only">(current)</span></a>
+        <a class="nav-link text" id="bio" href="#bioPage">Bio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text active" href="#technologiesPage">Technologies</a>
+        <a class="nav-link text active technologiesPage" id="tech" href="#technologiesPage">Technologies</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text active" href="#projectsPage">Projects</a>
+        <a class="nav-link text active projectsPage" id="proj" href="#projectsPage">Projects</a>
       </li>
     </ul>
   </div>
 </nav>`;
 
   utils.printToDom('#navbar', domString);
+
+  $('body').on('click', '#bio', divManip.showBio);
+  $('body').on('click', '#tech', divManip.showTech);
+  $('body').on('click', '#proj', divManip.showProj);
 };
 
 export default { buildNavBar };
