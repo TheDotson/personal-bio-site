@@ -15,7 +15,7 @@ const buildProjects = () => {
                 <h3>${project.title}</h3>
               </div>
               <div class="card-body p-0">
-                <img src="${project.screenshot}" class="card-img-top" alt="${project.title}">
+                <img src="${project.screenshot}" class="card-img-top proj-img" alt="${project.title}">
                 <div class="card-text">
                   <p>${project.description}</p>
                   <div class="tech-section text-center m-0">
@@ -23,7 +23,6 @@ const buildProjects = () => {
                     <p class="tech-paragraph">${project.technologiesUsed}</p>
                   </div>
                   <div class="text-center mt-3">
-                    <p class="m-0">Available: ${project.available}</p>
                   </div>
                 </div>
               </div>
