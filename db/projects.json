@@ -18,15 +18,24 @@
     "githubUrl": "https://github.com/TheDotson/tamagotchi"
   },
   "project03": {
-    "title": "Product Cards",
-    "screenshot": "https://bit.ly/3egVesd",
-    "description": "First project with NSS; used as a reflection of where I started from",
+    "title": "Clown College",
+    "screenshot": "https://raw.githubusercontent.com/TheDotson/nutshell-chital/master/assets/screenshots/teacherPage.png",
+    "description": "A group project that tasked us with finishing another group's unfinished project and expanding its functionality",
     "technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
     "available": true,
-    "url": "https://github.com/TheDotson/product-cards",
-    "githubUrl": "https://github.com/TheDotson/product-cards"
+    "url": "https://nutshell-chital.web.app",
+    "githubUrl": "https://github.com/TheDotson/nutshell-chital"
   },
   "project04": {
+    "title": "Pinterest",
+    "screenshot": "https://raw.githubusercontent.com/TheDotson/pinterest/main/screenshots/Screen%20Shot%202020-07-14%20at%201.46.36%20AM.png",
+    "description": "A project tasking us with making an ultra simple/slim version of Pinterest",
+    "technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://pinterest-89692.web.app/",
+    "githubUrl": "https://github.com/TheDotson/pinterest"
+  },
+  "project05": {
     "title": "Pants-Culottes",
     "screenshot": "https://bit.ly/2OhR6xu",
     "description": "Group project that tasked us with creating a site about pants",
@@ -34,14 +43,5 @@
     "available": true,
     "url": "https://github.com/TheDotson/pants-culottes",
     "githubUrl": "https://github.com/TheDotson/pants-culottes"
-  },
-  "project05": {
-    "title": "Bear Watcher",
-    "screenshot": "https://bit.ly/3iPSu8y",
-    "description": "Simple app to create a list of bears from user populated data",
-    "technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
-    "available": true,
-    "url": "https://github.com/TheDotson/bear-watcher",
-    "githubUrl": "https://github.com/TheDotson/bear-watcher"
   }
 }
