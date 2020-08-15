@@ -3,7 +3,10 @@ This is a longterm project to create a personal website to show off my achievmen
 
 This is currently a work in progress.
 
-# Technologies Used
+## Deployed Site
+https://personal-bio-site-d3d59.web.app
+
+## Technologies Used
 * HTML
 * Javascript
 * CSS
