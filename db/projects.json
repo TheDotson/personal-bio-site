@@ -19,7 +19,7 @@
   },
   "project03": {
     "title": "Clown College",
-    "screenshot": "",
+    "screenshot": "https://raw.githubusercontent.com/TheDotson/nutshell-chital/master/assets/screenshots/teacherPage.png",
     "description": "A group project that tasked us with finishing another group's unfinished project and expanding its functionality",
     "technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
     "available": true,
@@ -27,13 +27,13 @@
     "githubUrl": "https://github.com/TheDotson/nutshell-chital"
   },
   "project04": {
-    "title": "",
-    "screenshot": "",
-    "description": "",
+    "title": "Pinterest",
+    "screenshot": "https://raw.githubusercontent.com/TheDotson/pinterest/main/screenshots/Screen%20Shot%202020-07-14%20at%201.46.36%20AM.png",
+    "description": "A project tasking us with making an ultra simple/slim version of Pinterest",
     "technologiesUsed": "HTML, CSS, JavaScript, Version Control with Github",
     "available": true,
-    "url": "",
-    "githubUrl": ""
+    "url": "https://pinterest-89692.web.app/",
+    "githubUrl": "https://github.com/TheDotson/pinterest"
   },
   "project05": {
     "title": "Pants-Culottes",
