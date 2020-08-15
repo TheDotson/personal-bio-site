@@ -4,7 +4,7 @@
   "description": "This is a longterm project to create a personal website to show off my achievments made during my time with the NSS.  The site started off very rudimentary, but as I became proficient with different languages and techniques, this site was updated to reflect as such in the listed projects and in the general presentation.",
   "main": "src/javascripts/main.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open 'Google Chrome'",
+    "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production --module-bind js=babel-loader",
     "deploy": "npm run build && firebase deploy"
   },
